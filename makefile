@@ -1,5 +1,6 @@
 PKGS="audiostream"
 buildrun:
+	-rm .buildozer/android/platform/python-for-android/.git
 	-for pkg in $(PKGS); do \
 		rm -rf .buildozer/android/platform/*/build/python-installs/*/"$$pkg"; \
 		rm -rf .buildozer/android/platform/*/build/other_builds/*/"$$pkg"; \
