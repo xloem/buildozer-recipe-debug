@@ -1,6 +1,6 @@
 # buildozer/python-for-android recipe failure case template
 
-This is to ease debugging of buildozer/python-for-android issues and somewhat for recipe development.  Type `make` to build `main.py` .
+This is to ease debugging of buildozer/python-for-android issues and somewhat for recipe development.  Edit `main.py` to test your recipe or failure case, and type `make` to build.
 
 This repository has a github action to automatically merge pull requests, although it has not been tested.  Feel free to use this repository as a workbench to work on some issue.
 
