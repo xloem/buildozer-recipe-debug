@@ -1,4 +1,5 @@
 from audiostream import get_input
+from time import sleep
 
 def callback_mic(data):
     print('i got', len(data))
